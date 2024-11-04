@@ -48,3 +48,16 @@ document.querySelector('#formItem').addEventListener('submit', function (event) 
     document.querySelector('#listBarang').innerHTML += card;
   });
 });
+
+// todo : menu add
+document.addEventListener('DOMContentLoaded', function () {
+    var cartButton = document.querySelectorAll('#addCart');
+    cartButton.forEach(function (button) {
+      button.addEventListener('click', function () {
+        var cartCount = document.querySelector('#cart').textContent.match(/\d+/)[0];
+        cartCount = parseInt(cartCount) + 1;
+        document.querySelector('#cart').textContent = `(${cartCount})`;
+      });
+    });
+  });
+  
