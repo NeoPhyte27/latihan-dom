@@ -1,8 +1,8 @@
 var items = [
-  ['001', 'Keyboard Logitek', 60000, 'Keyboard yang mantap untuk kantoran', 'logitek.jpg'],
-  ['002', 'Keyboard MSI', 300000, 'Keyboard gaming MSI mekanik', 'msi.jpg'],
-  ['003', 'Mouse Genius', 50000, 'Mouse Genius biar lebih pinter', 'genius.jpeg'],
-  ['004', 'Mouse Jerry', 30000, 'Mouse yang disukai kucing', 'jerry.jpg'],
+  ['001', 'Kopi Kenangan', 10000, 'Kopi Yang Hanya Bisa Di Rasakan Dengan Masa Lalu nya', 'img/img_jumbotron/coffe1.png'],
+  ['002', 'Kopi Aceh', 13000, 'Kopi Nikmat Tidak Pait dan Enak Juga', 'img/img_jumbotron/coffe2.jpg'],
+  ['003', 'Saranghae Kopi', 15000, 'Ini Kopi Para Juara, Judika Pernah Membawakan Lagu Ini', 'img/img_jumbotron/coffe3.png'],
+  ['004', 'Kosu', 8000, 'Kopi Yang Murah Dengan Susu Melimpah', 'img/img_jumbotron/coffe4.png'],
 ];
 
 // todo : membuat loopingan
